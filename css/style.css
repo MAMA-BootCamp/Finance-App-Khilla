@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header-section {
+  background-color: #d0efeb;
+  padding: 18px 16px;
+  width: 100%;
+  display: flex;
+  gap: 4%;
+  align-items: center;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+  flex-basis: 15%;
+}
+.profile-img img {
+  width: 100%;
+  height: auto;
+}
+.welcome-section {
+  flex-basis: 85%;
+}
+.welcome-section h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #919191;
+}
