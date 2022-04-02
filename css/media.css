@@ -1,0 +1,131 @@
+@media (min-width: 426px) and (max-width: 768px) {
+  .profile-img {
+    flex-basis: 12%;
+  }
+  .welcome-section h2 {
+    font-size: 2.2rem;
+  }
+  .fa-solid.fa-ellipsis {
+    font-size: 2.2rem;
+  }
+  .subtitle-phrase {
+    font-size: 1.6rem;
+  }
+  .balance {
+    width: 50%;
+    height: 170px;
+  }
+  .wallet-img {
+    width: 120px;
+    height: 120px;
+  }
+  .cards {
+    width: 75%;
+    height: 150px;
+  }
+  .icon-container {
+    width: 70px;
+    height: 70px;
+  }
+  .card {
+    border-radius: 12px;
+  }
+  .card p {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .activity-text {
+    font-size: 2.2rem;
+  }
+  .today-text {
+    font-size: 1.6rem;
+  }
+  .row {
+    padding: 28px 16px;
+    background-color: #73a8df;
+    border-radius: 8px;
+  }
+  .row p {
+    font-size: 1.8rem;
+  }
+  .price {
+    color: #000;
+    font-size: 1.8rem;
+  }
+  .row-icon i {
+    font-size: 1.8rem;
+  }
+  .footer-section {
+    height: 85px;
+  }
+  .footer-icon {
+    flex-basis: 35%;
+    font-size: 2rem;
+  }
+  .footer-section p {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 769px) {
+  .header-section {
+    display: none;
+  }
+  .footer-section {
+    display: none;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .flex-down {
+    flex-basis: 80%;
+  }
+  .menu-side {
+    display: block;
+    flex-basis: 20%;
+    height: 100vh;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 16px;
+  }
+  .menu-side-head {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: #d0f1eb;
+    padding: 32px 16px;
+  }
+  .menu-nav {
+    display: flex;
+    align-items: center;
+    gap: 35%;
+    padding: 0px 16px;
+    margin-top: 32px;
+  }
+  .menu-nav p {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .menu-nav i {
+    font-size: 1.8rem;
+  }
+  .balance {
+    width: 50%;
+    margin: 32px auto 32px auto;
+  }
+  .row {
+    background-color: #73a8df;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .row p {
+    font-size: 1.8rem;
+  }
+  .row i {
+    font-size: 1.8rem;
+    padding-left: 16px;
+  }
+  .price {
+    color: #000;
+  }
+}

@@ -9,6 +9,9 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
+.menu-side {
+  display: none;
+}
 .header-section {
   background-color: #d0f1eb;
   padding: 32px 16px;
@@ -20,8 +23,8 @@ body {
   border-bottom-right-radius: 16px;
 }
 .profile-img {
-  height: 50px;
-  width: 50px;
+  /* height: 50px;
+  width: 50px; */
   flex-basis: 15%;
 }
 .profile-img img {
@@ -205,10 +208,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 8px; */
   height: 65px;
   box-shadow: 0px -4px 8px 0 rgb(145 145 145 / 52%);
-  position: absolute;
+  position: sticky;
   bottom: 0px;
 }
 .footer-icon {
